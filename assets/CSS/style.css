@@ -13,6 +13,7 @@ body {
     color: #3a3a3a;
 }
 
+/* hr style*/
 hr{
     border-color: black;
     border-style: dotted none none;
@@ -27,6 +28,14 @@ h1, h2 {
     font-weight: 600;
     letter-spacing: 4px;
     color: #252525;
+}
+
+h3 {
+    padding-top: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    color: #3a3a3a;
+    text-decoration: underline;
 }
 
 #logo {
@@ -80,10 +89,7 @@ h1, h2 {
 }
 
 /* Profile section */
-/* .intro{
-    width: 30%;
-    margin: auto;
-} */
+
 #welcome {
     text-align:center;
     margin: 20px 0;
@@ -119,6 +125,43 @@ h1, h2 {
     background: url('../images/profile-image.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+/* Skills Section */
+.skill-row-left{
+    height: 200px;
+    width: 33%;
+    margin: 5px auto;
+    text-align: left;
+}
+
+.skill-row-right{
+    height: 200px;
+    width: 33%;
+    margin: 5px auto;
+    text-align: right;
+}
+    
+    
+#skill-img1{
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background: url('../images/computer.png') no-repeat center center;
+    border-radius: 50%;
+}
+    
+#skill-img2{
+    margin-left: 15px;
+    width: 200px;
+    height: 200px;
+    float: right;
+    background: url('../images/game-controller.png') no-repeat center center;
+    border-radius: 500%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
 }
 
 /* Footer */
