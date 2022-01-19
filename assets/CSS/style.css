@@ -215,7 +215,7 @@ footer {
 /* Projects.html */
 #projects {
     clear: both;
-    background-color: rgba(60, 60, 60, 0.6);
+    /* background-color: rgba(60, 60, 60, 0.6); */
     background-size: cover;
     background-position: center;
 }

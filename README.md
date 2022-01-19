@@ -1,3 +1,68 @@
+Marco Gabarron's Portfolio
+
+Website developed to show Marco Gabarron's portfolio. Website includes Main landing page, projects page and contact me page.
+User will find my most recent projects using HTML, CSS, JavaScript and Swift.
+
+(Screenshots of website in many different screens)
+
+Features
+
+-> Navigation:  
+- Name on Top left corner.
+- Navigation Menu on top right Corner containing Home, Projects and Contact Me links.
+- Font chosen to be a handwritting font on headers and neutral and easy to read font on links and menus.
+- Navigation made to be clear and easy section divisions.
+
+(Snippet of nav bar)
+
+-> The Header: 
+- Image to ilustrate what is the theme of the portfolio(coding).
+- Hero image followed by profile picture and a Hello message.
+- This section provides a clear understanding of what the website is about(Portfolio) and main focus(Developer)
+
+-> My Skills Section: 
+- Add image to ilustrate and easily identify skill.
+- Brief Description of my skills.
+- color of images and text to match the pallet color of the rest of the website.
+- Idea is to be playful and give more details in Projects page.
+
+-> Get in Touch Section:
+- Brief and nice message to invite user to get in touch with me.
+- Highlight that there is a Contact Me page.
+- Button with link to Contact Me page.
+
+-> Projects Page:
+- Description of Projects Done.
+- Listed technologies used.
+- Added logo image that represents project.
+
+-> Contact Me Page:
+- Added form for user to get in touch.
+- Name, Surname, Email and Message field input added.
+
+Testing
+
+I tested the page with different browsers(Chrome, Firefox)
+
+I tested responsiveness of website and can confirm it is retaining design and readability on all screen sizes.
+
+I confirmed Home, Projects and Contact ME page is readable and easy to unsderstand.
+
+I have confirmed all input field is working properly and expecting apropriate format(Email format for instance).
+
+Bugs
+
+Validator Testing
+
+Unfixed Bugs
+
+Deployment
+
+Credits
+
+-> Content
+-> Media
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome marco-gabarron,
