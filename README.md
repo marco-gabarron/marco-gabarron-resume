@@ -51,16 +51,33 @@ I confirmed Home, Projects and Contact ME page is readable and easy to unsdersta
 I have confirmed all input field is working properly and expecting apropriate format(Email format for instance).
 
 Bugs
+->Solved Bugs: My skills section in the home page was breaking when on mobile screen. Had to change style.css to proportional size.
 
 Validator Testing
+-> HTML: No errors were returned when passing through the official W3C validator.
+
+-> CSS: No errors were returned when passing through the official (jigsaw)) validator.
+
+-> Acessibility: I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
+
+(Screenshot of lighthouse results)
 
 Unfixed Bugs
+-> No unfixed bugs
 
 Deployment
+The site was deployed to GitHub pages. The steps deploy are as follows:
+-> In the GitHub repository, navigate to the Settings tab.
+-> From the source section drop-down menu, select the Master Branch.
+-> Once the master branch has been selected, the page provided the link to the completed website.
+
+The live link can be found here: (Link to the complete website)
 
 Credits
 
 -> Content
+The code to make social media links were taken from CI Love Running projects.
+
 -> Media
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)

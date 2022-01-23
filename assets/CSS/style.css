@@ -19,7 +19,7 @@ hr{
     border-style: dotted none none;
     border-width: 6px;
     width: 4%;
-    margin: 100px auto;
+    margin: 50px auto;
   }
 
 /* headings and logo */
@@ -128,40 +128,47 @@ h3 {
 }
 
 /* Skills Section */
-.skill-row-left{
+/* #skills {
+    height: 600px;
+} */
+
+.skill-row{
     height: 200px;
     width: 33%;
     margin: 5px auto;
     text-align: left;
 }
 
-.skill-row-right{
+.skill-about-left {
+    text-align: right;
+}
+/* .skill-row-right{
     height: 200px;
     width: 33%;
     margin: 5px auto;
     text-align: right;
-}
+} */
     
     
 #skill-img1{
     margin-right: 15px;
     width: 200px;
     height: 200px;
-    float: left;
     background: url('../images/computer.png') no-repeat center center;
     border-radius: 50%;
+    float: left;
 }
     
 #skill-img2{
     margin-left: 15px;
     width: 200px;
     height: 200px;
-    float: right;
     background: url('../images/game-controller.png') no-repeat center center;
     border-radius: 500%;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-width: 2px;
+    float: right;
 }
 
 /* Contact-me Section */
@@ -303,7 +310,29 @@ footer {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    .skill-row {
+        width: 65%;
+        height: 300px;
+    }
 
+    .skill-about-left, .skill-about-right {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        display: block;
+        clear: both;
+    }
+        
+    #skill-img1, #skill-img2, #project-img1{
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        float: none;
+    }
+    hr {
+        width: 6%;
+        /* display: none; */
+    }
 }
 
 /* For medium screen sizrs from 950px wide and down */
@@ -316,12 +345,10 @@ footer {
         line-height: 25px;
     }
 
-    #cover-text {
-        left: 0;
-    }
+    
   }
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
-
+    
 }
