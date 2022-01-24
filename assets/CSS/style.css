@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Work+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Rubik:wght@300&family=Sacramento&family=Work+Sans&display=swap');
 
 * {
     margin: 0;
@@ -27,7 +27,7 @@ h1, h2 {
     font-family: 'Sacramento', sans-serif;
     font-weight: 600;
     letter-spacing: 4px;
-    color: #252525;
+    color: #11cdd4;
 }
 
 h3 {
@@ -65,7 +65,8 @@ h3 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #11cdd4;
+    color: #11cdd4;
 }
 
 .active {
@@ -141,7 +142,7 @@ h3 {
     text-align: center;
 }
 
-#center-about {
+#profile-container {
     width: 33%;
     margin: 0 auto;
 }
@@ -157,16 +158,11 @@ h3 {
     margin: 0 auto;
 }
 
-#circle-cover-bg {
+#profile-img {
     background: url('../images/profile-image.jpeg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
-
-/* Skills Section */
-/* #skills {
-    height: 600px;
-} */
 
 .skill-row{
     height: 200px;
@@ -177,14 +173,7 @@ h3 {
 
 .skill-about-left {
     text-align: right;
-}
-/* .skill-row-right{
-    height: 200px;
-    width: 33%;
-    margin: 5px auto;
-    text-align: right;
-} */
-    
+}  
     
 #skill-img1{
     margin-right: 15px;
@@ -216,23 +205,24 @@ h3 {
     width: 40%;
     margin: 40px auto 60px;
   }
-  .btn {
-      background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
-      background-color:#11cdd4;
-      border-radius:10px;
-      border:1px solid #11cdd4;
-      display:inline-block;
-      cursor:pointer;
-      color:#ffffff;
-      font-family:Arial;
-      font-size:20px;
-      padding:16px 31px;
-      text-decoration:none;
-      text-shadow:0 1px 0 #11999e;
+
+.btn {
+    background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+    background-color:#11cdd4;
+    border-radius:10px;
+    border:1px solid #11cdd4;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #11999e;
   }
-  .btn:hover {
-      background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
-      background-color:#11999e;
+.btn:hover {
+    background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+    background-color:#11999e;
   }
 
 /* Footer */
@@ -248,6 +238,10 @@ footer {
     display: inline;
 }
 
+.social-networks i:hover {
+    color: #11cdd4
+}
+
 .social-networks i {
     font-size: 160%;
     margin: 1%;
@@ -258,13 +252,12 @@ footer {
 /* Projects.html */
 #projects {
     clear: both;
-   /* background-color: rgba(60, 60, 60, 0.1);
-     background-size: cover;
-    background-position: center; */
+    background-color: rgba(0, 0, 0, 0.1);    
 }
 
 #moretocomemessage {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 #project-img1 {
@@ -277,11 +270,9 @@ footer {
 }
 
 /* Form */
-
 .form-section {
     clear: left;
     background-color: rgba(60, 60, 60, 0.6);
-    /* background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg"); */
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -292,8 +283,6 @@ footer {
     color: #fff;
     max-width: 400px;
     margin: 50px auto;
-    /* position: absolute;
-    left: 10%;*/
     padding: 30px;
 }
 
@@ -324,17 +313,6 @@ footer {
 
 .text-input:hover, textarea:hover {
     border-color: #11cdd4;
-}
-
-.join-button {
-    /* margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
-    display: block; */
 }
 
 .join-button:hover {
@@ -368,6 +346,9 @@ footer {
     hr {
         width: 6%;
         /* display: none; */
+    }
+    #projects > hr {
+        margin-top: 80px;
     }
 }
 
