@@ -1,96 +1,112 @@
-Marco Gabarron's Portfolio
+# Marco Gabarron's Portfolio
 
 Website developed to show Marco Gabarron's portfolio. Website includes Main landing page, projects page and contact me page.
 User will find my most recent projects using HTML, CSS, JavaScript and Swift.
 
 ![Screens Screenshot](assets/images/screens-screenshot.png)
 
-Features
 
--> Navigation:  
-- Name on Top left corner.
-- Navigation Menu on top right Corner containing Home, Projects and Contact Me links.
-- Font chosen to be a handwritting font on headers and neutral and easy to read font on links and menus.
-- Navigation made to be clear and easy section divisions.
+## Features
+------
+
+- Navigation:  
+    - Name on Top left corner.
+    - Navigation Menu on top right Corner containing Home, Projects and Contact Me links.
+    - Font chosen to be a handwritting font on headers and neutral and easy to read font on links and menus.
+    - Navigation made to be clear and easy section divisions.
 
 ![Navbar Screenshot](assets/images/navbar-screenshot.png)
 
--> Profile Section: 
-- Image to ilustrate what is the theme of the portfolio(coding).
-- Hero image followed by profile picture and a Hello message.
-- This section provides a clear understanding of what the website is about(Portfolio) and main focus(Developer)
+- Profile Section: 
+    - Image to ilustrate what is the theme of the portfolio(coding).
+    - Hero image followed by profile picture and a Hello message.
+    - This section provides a clear understanding of what the website is about(Portfolio) and main focus(Developer)
 
 ![CodeImage Screenshot](assets/images/codeimage-screenshot.png)
 ![Profile Screenshot](assets/images/profile-screenshot.png)
 
--> My Skills Section: 
-- Add image to ilustrate and easily identify skill.
-- Brief Description of my skills.
-- color of images and text to match the pallet color of the rest of the website.
-- Idea is to be playful and give more details in Projects page.
+- My Skills Section: 
+    - Add image to ilustrate and easily identify skill.
+    - Brief Description of my skills.
+    - Color of images and text to match the pallet color of the rest of the website.
+    - Idea is to be playful and give more details in Projects page.
 
 ![MySkills Screenshot](assets/images/myskills-screenshot.png)
 
--> Get in Touch Section:
-- Brief and nice message to invite user to get in touch with me.
-- Highlight that there is a Contact Me page.
-- Button with link to Contact Me page.
+- Get in Touch Section:
+    - Brief and nice message to invite user to get in touch with me.
+    - Highlight that there is a Contact Me page.
+    - Button with link to Contact Me page.
 
 ![GetInTouch Screenshot](assets/images/getintouch-screenshot.png)
 
--> Projects Page:
-- Description of Projects Done.
-- Listed technologies used.
-- Added logo image that represents project.
+- Projects Page:
+    - Description of Projects Done.
+    - Listed technologies used.
+    - Added logo image that represents project.
 
 ![Projects Screenshot](assets/images/projects-screenshot.png)
 
--> Contact Me Page:
-- Added form for user to get in touch.
-- Name, Surname, Email and Message field input added.
+- Contact Me Page:
+    - Added form for user to get in touch.
+    - Name, Surname, Email and Message field input added.
 
 ![ContactMe Screenshot](assets/images/contactme-screenshot.png)
 
-Testing
 
-I tested the page with different browsers(Chrome, Firefox)
+## Testing
+------
 
-I tested responsiveness of website and can confirm it is retaining design and readability on all screen sizes.
+- I tested the page with different browsers(Chrome, Firefox)
 
-I confirmed Home, Projects and Contact ME page is readable and easy to unsderstand.
+- I tested responsiveness of website and can confirm it is retaining design and readability on all screen sizes.
 
-I have confirmed all input field is working properly and expecting apropriate format(Email format for instance).
+- I confirmed Home, Projects and Contact ME page is readable and easy to unsderstand.
 
-Bugs
-->Solved Bugs: My skills section in the home page was breaking when on mobile screen. Had to change style.css to proportional size.
+- I have confirmed all input field is working properly and expecting apropriate format(Email format for instance).
 
-Validator Testing
--> HTML: No errors were returned when passing through the official W3C validator.
 
--> CSS: No errors were returned when passing through the official (jigsaw)) validator.
+### Bugs
 
--> Acessibility: I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
+##### Solved Bugs
+
+- My skills section in the home page was breaking when on mobile screen. Had to change style.css to proportional size.
+
+### Validator Testing
+- HTML: 
+    - No errors were returned when passing through the official W3C validator.
+
+- CSS: 
+    - No errors were returned when passing through the official (jigsaw)) validator.
+
+- Acessibility
+    - I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
 
 ![LightHouse Screenshot](assets/images/lighthouse-screenshot.png)
 
-Unfixed Bugs
--> No unfixed bugs
+### Unfixed Bugs
+No unfixed bugs
 
-Deployment
-The site was deployed to GitHub pages. The steps deploy are as follows:
--> In the GitHub repository, navigate to the Settings tab.
--> From the source section drop-down menu, select the Master Branch.
--> Once the master branch has been selected, the page provided the link to the completed website.
 
-The live link can be found here: https://marco-gabarron.github.io/marco-gabarron-resume/
+## Deployment
+------
 
-Credits
+- The site was deployed to GitHub pages. The steps deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab.
+    - From the source section drop-down menu, select the Master Branch.
+    - Once the master branch has been selected, the page provided the link to the completed website.
 
--> Content
-The code to make social media links were taken from CI Love Running projects.
+The live link can be found here: <a href="https://marco-gabarron.github.io/marco-gabarron-resume/" target="_blank">Marco's Protfolio</a>
 
--> Media
-Code Image taken from Pexels.
+
+## Credits
+------
+
+### Content
+- The code to make social media links were taken from CI Love Running projects.
+
+### Media
+- Code Image taken from <a href="https://pexels.com" target="_blank">Pexels.</a>.
 
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
