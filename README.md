@@ -3,7 +3,7 @@ Marco Gabarron's Portfolio
 Website developed to show Marco Gabarron's portfolio. Website includes Main landing page, projects page and contact me page.
 User will find my most recent projects using HTML, CSS, JavaScript and Swift.
 
-(Screenshots of website in many different screens)
+![Screens Screenshot](assets/images/screens-screenshot.png)
 
 Features
 
@@ -13,12 +13,15 @@ Features
 - Font chosen to be a handwritting font on headers and neutral and easy to read font on links and menus.
 - Navigation made to be clear and easy section divisions.
 
-(Snippet of nav bar)
+![Navbar Screenshot](assets/images/navbar-screenshot.png)
 
--> The Header: 
+-> Profile Section: 
 - Image to ilustrate what is the theme of the portfolio(coding).
 - Hero image followed by profile picture and a Hello message.
 - This section provides a clear understanding of what the website is about(Portfolio) and main focus(Developer)
+
+![CodeImage Screenshot](assets/images/codeimage-screenshot.png)
+![Profile Screenshot](assets/images/profile-screenshot.png)
 
 -> My Skills Section: 
 - Add image to ilustrate and easily identify skill.
@@ -26,19 +29,27 @@ Features
 - color of images and text to match the pallet color of the rest of the website.
 - Idea is to be playful and give more details in Projects page.
 
+![MySkills Screenshot](assets/images/myskills-screenshot.png)
+
 -> Get in Touch Section:
 - Brief and nice message to invite user to get in touch with me.
 - Highlight that there is a Contact Me page.
 - Button with link to Contact Me page.
+
+![GetInTouch Screenshot](assets/images/getintouch-screenshot.png)
 
 -> Projects Page:
 - Description of Projects Done.
 - Listed technologies used.
 - Added logo image that represents project.
 
+![Projects Screenshot](assets/images/projects-screenshot.png)
+
 -> Contact Me Page:
 - Added form for user to get in touch.
 - Name, Surname, Email and Message field input added.
+
+![ContactMe Screenshot](assets/images/contactme-screenshot.png)
 
 Testing
 
@@ -60,7 +71,7 @@ Validator Testing
 
 -> Acessibility: I confirmed that the colors and fonts chosen are easy to read and accessible by running through lighthouse in devtools.
 
-(Screenshot of lighthouse results)
+![LightHouse Screenshot](assets/images/lighthouse-screenshot.png)
 
 Unfixed Bugs
 -> No unfixed bugs
@@ -71,7 +82,7 @@ The site was deployed to GitHub pages. The steps deploy are as follows:
 -> From the source section drop-down menu, select the Master Branch.
 -> Once the master branch has been selected, the page provided the link to the completed website.
 
-The live link can be found here: (Link to the complete website)
+The live link can be found here: https://marco-gabarron.github.io/marco-gabarron-resume/
 
 Credits
 
@@ -79,6 +90,8 @@ Credits
 The code to make social media links were taken from CI Love Running projects.
 
 -> Media
+Code Image taken from Pexels.
+
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
