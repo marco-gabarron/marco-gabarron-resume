@@ -1,6 +1,8 @@
+/* Import fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Rubik:wght@300&family=Sacramento&family=Work+Sans&display=swap');
 
+/* General Rules */
 * {
     margin: 0;
     padding: 0;
@@ -13,11 +15,11 @@ body {
     color: #3a3a3a;
 }
 
-/* hr style*/
 hr{
     border-color: black;
     border-style: dotted none none;
     border-width: 6px;
+
     width: 4%;
     margin: 50px auto;
   }
@@ -27,6 +29,7 @@ h1, h2 {
     font-family: 'Sacramento', sans-serif;
     font-weight: 600;
     letter-spacing: 4px;
+
     color: #11cdd4;
 }
 
@@ -44,6 +47,9 @@ h3 {
     margin-left: 30px;
 }
 
+/* Index.html */
+
+/* Navbar/Header */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -73,9 +79,9 @@ h3 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Presentation Image */
+/* Initial Section */
 
-#code-outer {
+#initial-section {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -86,6 +92,7 @@ h3 {
 #code-image {
     height: 600px;
     width: 100%;
+
     background: url(../images/code-image.jpg) no-repeat center center;
 }
 
@@ -110,15 +117,16 @@ h3 {
     right: 150px;
 
     position: absolute;
-
 }
 
 #cover-text > h3 {
     color: inherit;
     text-decoration: none;
+
     font-size: 200%;
     letter-spacing: normal;
     font-family: 'Sacramento';
+
 }
 
 .pro{
@@ -127,18 +135,19 @@ h3 {
 
 /* Profile section */
 
-.welcome {
+.headerstyle {
     text-align:center;
-    margin: 20px 0;
     font-size: 280%;
+
+    margin: 20px 0;
 }
 
-#profile {
+#profile-section {
     height: 400px;
     margin: 25px auto;
 }
 
-#profile p {
+#profile-section p {
     text-align: center;
 }
 
@@ -149,25 +158,32 @@ h3 {
 
 #circle-container {
     width: 200px;
-    height: 200px;
-    padding: 0px;
+    height: 200px; 
+
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
+
+    padding: 0px;
     margin: 0 auto;
 }
 
 #profile-img {
     background: url('../images/profile-image.jpeg') no-repeat center center;
+    
     height: 100%;
+
     border-radius: 50%;
 }
 
+/* Skills Section */
 .skill-row{
     height: 200px;
     width: 33%;
+
     margin: 5px auto;
+
     text-align: left;
 }
 
@@ -175,50 +191,62 @@ h3 {
     text-align: right;
 }  
     
-#skill-img1{
-    margin-right: 15px;
+#skill-img1{    
     width: 200px;
     height: 200px;
+
     background: url('../images/computer.png') no-repeat center center;
     border-radius: 50%;
+
     float: left;
+
+    margin-right: 15px;
 }
     
 #skill-img2{
-    margin-left: 15px;
     width: 200px;
     height: 200px;
+
     background: url('../images/game-controller.png') no-repeat center center;
     border-radius: 500%;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-width: 2px;
+
     float: right;
+
+    margin-left: 15px;
 }
 
 /* Contact-me Section */
-#contact-me {
+#contactme-section {
     text-align: center;
 }
 
 .contact-message{
     width: 40%;
     margin: 40px auto 60px;
-  }
+}
 
+  /* Contact-me Button */
 .btn {
     background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
     background-color:#11cdd4;
+    
     border-radius:10px;
     border:1px solid #11cdd4;
+
     display:inline-block;
     cursor:pointer;
+
     color:#ffffff;
     font-family:Arial;
-    font-size:20px;
-    padding:16px 31px;
+    font-size:20px;      
+
     text-decoration:none;
     text-shadow:0 1px 0 #11999e;
+
+    padding:16px 31px;
   }
 .btn:hover {
     background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
@@ -243,16 +271,26 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 160%;    
+    color: #3a3a3a;
+
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+}
+
+.copyrighttext {
+    text-align: center;
+    display: block;
+
+    margin: 0 auto;
+    padding-bottom: 15px;
 }
 
 /* Projects.html */
 #projects {
     clear: both;
-    background-color: rgba(0, 0, 0, 0.1);    
+    background-color: rgba(0, 0, 0, 0.1);   
+    padding: 30px; 
 }
 
 #moretocomemessage {
@@ -260,64 +298,64 @@ footer {
     padding-bottom: 10px;
 }
 
-#project-img1 {
-    margin-right: 15px;
+#project-img1 {    
     width: 200px;
     height: 200px;
+
     float: left;
     background: url('../images/nutrigenda.png') no-repeat center center;
     border-radius: 15%;
+
+    margin-right: 15px;
 }
 
-/* Form */
-.form-section {
+/* Contactme.html */
+#contactme {
     clear: left;
-    background-color: rgba(60, 60, 60, 0.6);
-    background-size: cover;
-    background-position: center;
+    background-color: rgba(0, 0, 0, 0.1);
     height: 600px;
 }
 
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
+.message-form {    
+    color: black;
     max-width: 400px;
     margin: 50px auto;
     padding: 30px;
 }
 
-.signup-form h2 {
-    color: #fafafa;
+.message-form h2 {
+    color: #11cdd4;
     margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
     width: 100%;
     height: 25px;
-    margin: 5px 0 20px;
-    border: 1px solid #fafafa;
+
+    border: 1px solid black;
     border-radius: 2px;
+
+    margin: 5px 0 20px;    
 }
 
 .textarea-input {
     background: transparent;
-    color: #fafafa;
     max-width: 100%;
     max-height: 100px;
     margin: 5px 0 20px;
-    border: 1px solid #fafafa;
+    border: 1px solid black;
     border-radius: 2px;
+    resize: none;
 }
 
 .text-input:hover, textarea:hover {
     border-color: #11cdd4;
 }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+form input[type="submit"] {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Media queries */
@@ -337,33 +375,34 @@ footer {
         clear: both;
     }
         
-    #skill-img1, #skill-img2, #project-img1{
-        margin: 0 auto;
+    #skill-img1, #skill-img2, #project-img1{        
         width: 200px;
         height: 200px;
+
         float: none;
+        margin: 0 auto;
     }
     hr {
         width: 6%;
-        /* display: none; */
     }
     #projects > hr {
         margin-top: 80px;
     }
 }
 
-/* For medium screen sizrs from 950px wide and down */
+/* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     #menu {
         clear: left;
         float: left;
+
+        line-height: 25px;
+
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 25px;
+        
     }
-
-    
-  }
+}
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
