@@ -1,10 +1,38 @@
 # Marco Gabarron's Portfolio
-
 Website developed to show Marco Gabarron's portfolio. Website includes Main landing page, projects page and contact me page.
 User will find my most recent projects using HTML, CSS, JavaScript and Swift.
 
 ![Screens Screenshot](assets/images/screens-screenshot.png)
 
+## Purpose
+------
+
+Purpose of this project is to showcase my abilities in HTML and CSS to accomplish project 1 of Code Institute course. 
+Project was chosen in order to use it to showcase my projects portfolio in the future for potential employers.
+
+## UX design
+------
+
+Ux design developed to be mobile first and user friendly.
+Fonts and color Pallet chosen to be playful and easy to read.
+Navbar and footer kept the same throughout the website to keep consistency.
+Headings and paragraphs text color kept the same on all pages
+
+- Index Page
+    - Landing page designed to have a bit of text but have all the content user needs to know.
+    - Profile section designed to show my profile picture and a quick hello.
+    - My skills section designed to be simple and fun but also providing user with my skills.
+    - Get in touch section designed to give user another link to contactme page.
+
+- Projects Page
+    - Projects page designed to showcase my propjects with a simple description and an image or logo that represents the project.
+    - Colors kept the same of other pages.
+
+- Contactme Page
+    - Contactme page designed to have a form where user can send me a message having to provide their full name, email and message.
+    - Form designed to change color when user hovers one of the fields.
+    - Send Button designed to change color the hovered.
+    - Colors kept the same of other pages.
 
 ## Features
 ------
@@ -49,7 +77,8 @@ User will find my most recent projects using HTML, CSS, JavaScript and Swift.
 
 - Contact Me Page:
     - Added form for user to get in touch.
-    - Name, Surname, Email and Message field input added.
+    - Name, Surname, Email field input added and textarea included for a Message entry.
+    - Whe clicked, send button will bring you to CI form validator.
 
 ![ContactMe Screenshot](assets/images/contactme-screenshot.png)
 
@@ -57,20 +86,21 @@ User will find my most recent projects using HTML, CSS, JavaScript and Swift.
 ## Testing
 ------
 
-- I tested the page with different browsers(Chrome, Firefox)
+- Website tested with two different browsers(Chrome, Firefox).
 
-- I tested responsiveness of website and can confirm it is retaining design and readability on all screen sizes.
+- Responsiveness of website tested and can confirm it is retaining design and readability on all screen sizes.
 
-- I confirmed Home, Projects and Contact ME page is readable and easy to unsderstand.
+- I confirmed Home, Projects and Contact Me page are readable and easy to unsderstand.
 
-- I have confirmed all input field is working properly and expecting apropriate format(Email format for instance).
+- Links in the Navbar working properly and having expected behaviour.
 
+- Confirmed all input fields are working properly and expecting apropriate format(Email format for instance).
 
 ### Bugs
 
 ##### Solved Bugs
 
-- My skills section in the home page was breaking when on mobile screen. Had to change style.css to proportional size.
+- My skills section in the home page was breaking when on mobile screen. Had to change style.css to proportional size. Used "@media screen and (max-width: 1200px)" to re-style section.
 
 ### Validator Testing
 - HTML: 
@@ -87,7 +117,6 @@ User will find my most recent projects using HTML, CSS, JavaScript and Swift.
 ### Unfixed Bugs
 No unfixed bugs
 
-
 ## Deployment
 ------
 
@@ -98,6 +127,12 @@ No unfixed bugs
 
 The live link can be found here: <a href="https://marco-gabarron.github.io/marco-gabarron-resume/" target="_blank">Marco's Protfolio</a>
 
+## Future Developmets
+------
+
+- Add more projects to Projects page and include links to them live.
+- Add animations to the website. 
+- Add functionality where message sent through contactme page is sent to my email.
 
 ## Credits
 ------
@@ -106,119 +141,6 @@ The live link can be found here: <a href="https://marco-gabarron.github.io/marco
 - The code to make social media links were taken from CI Love Running projects.
 
 ### Media
-- Code Image taken from <a href="https://pexels.com" target="_blank">Pexels.</a>.
-
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome marco-gabarron,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
-
-
-Picture 1
-Photo by Sabrina Gelbart from Pexels
-https://www.pexels.com/photo/full-frame-shot-of-abstract-pattern-249798/
+- Code Image and my skills images taken from <a href="https://pexels.com" target="_blank">Pexels.</a>
+- Icons for social media links in the footer taken from <a href="https://fontawesome.com" target="_blank">Font Awesome.</a>.
+- 6 fonts(Merriweather, Sacramento, Rubik, Montserrat, Lato and Oswald) used throughout the project taken from <a href="https://fonts.google.com/" target="_blank">Google Fonts.</a>
